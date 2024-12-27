@@ -75,4 +75,3 @@ class Bank():
         if theBalance is not None:
             print('Withdraw:', userAmount)
             print('Your balance is:', theBalance)
-
