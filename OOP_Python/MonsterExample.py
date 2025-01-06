@@ -22,4 +22,3 @@ monsterList = []
 for i in range(N_MONSTERS):
     oMonster = Monster(N_ROWS, N_COLS, MAX_SPEED)
     monsterList.append(oMonster)
-
