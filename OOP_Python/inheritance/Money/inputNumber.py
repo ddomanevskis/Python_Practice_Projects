@@ -9,8 +9,9 @@ LEGAL_KEYS_TUPLE = (pygame.K_RIGHT, pygame.K_LEFT, pygame.K_HOME,
                     pygame.K_RETURN, pygame.K_KP_ENTER)
 LEGAL_UNICODE_CHARS = ('0123456789.-')
 
+
 class InputNumber(pygwidgets.InputText):
-    def __init__(self, window, loc, value='', fontName= None,
+    def __init__(self, window, loc, value='', fontName=None,
                  fontSize=24, width=200, textColor=BLACK, backgroundColor=WHITE,
                  focusColor=BLACK, initialFocus=False, nickName=None, callback=None,
                  mask=None, keepFocusOnSubmit=False, allowFloatingNumber=True,
@@ -18,7 +19,7 @@ class InputNumber(pygwidgets.InputText):
         self.allowFloatingNumber = allowFloatingNumber
         self.allowNegativeNumber = allowNegativeNumber
 
-        super.__init__(window, loc, value, fontName, fontSize, width, textColor,
+        super().__init__(window, loc, value, fontName, fontSize, width, textColor,
                        backgroundColor, focusColor, initialFocus, nickName, callback,
                        mask, keepFocusOnSubmit)
 
